@@ -1,6 +1,6 @@
 -- cleaned DimDateTable --
 SELECT 
-  TOP (1000) [DateKey], 
+  [DateKey], 
   [FullDateAlternateKey] as Date,
   --,[DayNumberOfWeek], 
   [EnglishDayNameOfWeek] as Day,
